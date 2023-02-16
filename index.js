@@ -146,3 +146,12 @@ console.log(total4);
 
 let example4 = ["one", "two", "three"];
 example4.reverse();
+
+
+// 19. Создайте массив из имен (минимум 3) и выведите каждое имя.
+// Hello Erjan Hello Ermek ... 
+
+let example5 = ["Erjan", "Ermek", "Atak", "Bayel"];
+for (let i = 0; i < example5.length; i++) {
+  console.log(`Hello ${example5[i]}`);
+}
