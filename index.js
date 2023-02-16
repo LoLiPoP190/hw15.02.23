@@ -129,15 +129,15 @@ for (let i = 0; i < example2.length; i++) {
     sum = sum + example2[i];
   }
 }
-console.log(total3);
+console.log(sum);
 
 
 //17. Создайте массив строк и объедините их в одну строку.  ["I", "like", "to", "eat!"]
 
 let unify = ["I", "like", "to", "eat!"];
-let total4 = "";
+let total3 = "";
 for (let i = 0; i < unify.length; i++) {
-  total4 = total4 + unify[i];
+  total3 = total3 + unify[i];
 }
 console.log(total4);
 
@@ -171,4 +171,5 @@ for (let i = 0; i < squares.length; i++) {
 // parrot - false
 
 let animals = ["cat", "dog", "snake"];
-console.log();
+console.log(animals.includes("cat"));
+console.log(animals.includes("parrot"));
