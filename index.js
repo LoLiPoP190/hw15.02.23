@@ -131,3 +131,12 @@ for (let i = 0; i < example2.length; i++) {
 }
 console.log(total3);
 
+
+//17. Создайте массив строк и объедините их в одну строку.  ["I", "like", "to", "eat!"]
+
+let example3 = ["I", "like", "to", "eat!"];
+let total4 = "";
+for (let i = 0; i < example3.length; i++) {
+  total4 = total4 + example3[i];
+}
+console.log(total4);
