@@ -123,10 +123,10 @@ example1.unshift("nothing"); // в начало массива
 
 let example2 = [1, 3, 4, 6, 78, 50, 48, 23];
 
-let total3 = 0;
+let sum = 0;
 for (let i = 0; i < example2.length; i++) {
   if (example2[i] % 2 === 0) {
-    total3 = total3 + example2[i];
+    sum = sum + example2[i];
   }
 }
 console.log(total3);
@@ -134,26 +134,26 @@ console.log(total3);
 
 //17. Создайте массив строк и объедините их в одну строку.  ["I", "like", "to", "eat!"]
 
-let example3 = ["I", "like", "to", "eat!"];
+let unify = ["I", "like", "to", "eat!"];
 let total4 = "";
-for (let i = 0; i < example3.length; i++) {
-  total4 = total4 + example3[i];
+for (let i = 0; i < unify.length; i++) {
+  total4 = total4 + unify[i];
 }
 console.log(total4);
 
 
 // 18. Создайте массив строк ["one", "two", "three"] и переверните его.  ["three", "two", "one"]
 
-let example4 = ["one", "two", "three"];
-example4.reverse();
+let reversed = ["one", "two", "three"];
+reversed.reverse();
 
 
 // 19. Создайте массив из имен (минимум 3) и выведите каждое имя.
 // Hello Erjan Hello Ermek ... 
 
-let example5 = ["Erjan", "Ermek", "Atak", "Bayel"];
-for (let i = 0; i < example5.length; i++) {
-  console.log(`Hello ${example5[i]}`);
+let names = ["Erjan", "Ermek", "Atak", "Bayel"];
+for (let i = 0; i < names.length; i++) {
+  console.log(`Hello ${names[i]}`);
 }
 
 
@@ -164,3 +164,11 @@ let squares = [2, 3, 4, 5, 10, 7];
 for (let i = 0; i < squares.length; i++) {
   console.log(squares[i] ** 2);
 }
+
+
+// 21. Создайте массив строк и проверьте есть ли такой элемент в массиве. // ["cat", "dog", "snake"] 
+// cat - true
+// parrot - false
+
+let animals = ["cat", "dog", "snake"];
+console.log();
