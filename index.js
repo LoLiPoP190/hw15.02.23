@@ -109,3 +109,12 @@ for (let i = 0; i < 21; i += 2) {
 for (let i = 1; i < 16; i += 2) {
   console.log(i);
 }
+
+
+// 14. Создайте массив из строк и добавьте в начало массива 2 новых элемента, а в конец 3. 
+
+let example1 = ["Hello", "my", "Karakol", "what", "friend"];
+
+example1.push("something"); // в конец массива
+example1.unshift("nothing"); // в начало массива
+
