@@ -93,3 +93,11 @@ for (let i = 0; i < 26; i++) {
   total2 = total2 + i;
 }
 console.log(total2);
+
+
+// 12. Напишите цикл, который печатает четные числа от 0 до 20.
+// 0 2 4
+
+for (let i = 0; i < 21; i += 2) {
+  console.log(i);
+}
