@@ -155,3 +155,12 @@ let example5 = ["Erjan", "Ermek", "Atak", "Bayel"];
 for (let i = 0; i < example5.length; i++) {
   console.log(`Hello ${example5[i]}`);
 }
+
+
+// 20. Создайте массив из чисел и выведите квадраты этих чисел. [2, 3, 4, 5]
+// 4 9 16 25
+
+let squares = [2, 3, 4, 5, 10, 7];
+for (let i = 0; i < squares.length; i++) {
+  console.log(squares[i] ** 2);
+}
