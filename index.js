@@ -6,3 +6,11 @@ function printNameSurname(name, surname) {
 }
 printNameSurname("atak", "oskonbaev");
 
+
+// 2. Напишите функцию, которая выводит объем конуса по заданным параметрам - высота (height) и радиус (radius).
+// functionName(height, radius) Объем конуса равен ...
+
+function printVolume(height, radius) {
+  console.log(3.14 * (radius ** 2) * height);
+}
+printVolume(34, 13);
