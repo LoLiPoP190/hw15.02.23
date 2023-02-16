@@ -35,3 +35,12 @@ function getEvenOrOdd(num) {
     console.log(`The number ${num} is odd`);
   }
 }
+
+
+// 5. Напишите функцию, которая возвращает квадрат числа.
+// functionName(num) // Квадрат этого числа равен
+
+function square(num) {
+  return num ** 2;
+}
+
