@@ -67,3 +67,12 @@ function perimetrOfPentagon(a, b, c, d, e) {
 for (let i = 0; i < 34; i += 3) {
   console.log(i);
 }
+
+
+// 9. Напишите цикл, вычисляющий факториал числа 8. (8!)
+
+let total = 1;
+for (let i = 1; i < 9; i++) {
+  total = total * i;
+}
+console.log(total);
