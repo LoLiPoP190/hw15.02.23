@@ -101,3 +101,11 @@ console.log(total2);
 for (let i = 0; i < 21; i += 2) {
   console.log(i);
 }
+
+
+// 13. Напишите цикл, который печатает нечетные числа от 1 до 15.
+// 1 3 ...
+
+for (let i = 1; i < 16; i += 2) {
+  console.log(i);
+}
