@@ -22,3 +22,16 @@ printVolume(34, 13);
 function getLength(str) {
   return str.length;
 }
+
+
+// 4. Напишите функцию, которая принимает число и проверяет, четное оно или нечетное.
+// functionName(num) // Число - четное || Число - нечетное
+
+function getEvenOrOdd(num) {
+  if (num % 2 === 0) {
+    console.log(`The number ${num} is even`);
+  }
+  else {
+    console.log(`The number ${num} is odd`);
+  }
+}
