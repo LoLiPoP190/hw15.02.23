@@ -40,7 +40,15 @@ function getEvenOrOdd(num) {
 // 5. Напишите функцию, которая возвращает квадрат числа.
 // functionName(num) // Квадрат этого числа равен
 
-function square(num) {
+function squareOfNum(num) {
   return num ** 2;
+}
+
+
+// 6. Напишите функцию, которая возвращает корень числа.
+// functionName(num) // Корень этого числа равен
+
+function rootOfNum(num) {
+  return num ** (1/2);
 }
 
