@@ -140,3 +140,9 @@ for (let i = 0; i < example3.length; i++) {
   total4 = total4 + example3[i];
 }
 console.log(total4);
+
+
+// 18. Создайте массив строк ["one", "two", "three"] и переверните его.  ["three", "two", "one"]
+
+let example4 = ["one", "two", "three"];
+example4.reverse();
