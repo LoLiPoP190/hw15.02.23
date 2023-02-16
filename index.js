@@ -49,6 +49,13 @@ function squareOfNum(num) {
 // functionName(num) // Корень этого числа равен
 
 function rootOfNum(num) {
-  return num ** (1/2);
+  return num ** (1 / 2);
 }
 
+
+// 7. Напишите функцию, которая возвращает периметр пятиугольника.
+// functionName(a, b, c, d, e) // Периметр - ...
+
+function perimetrOfPentagon(a, b, c, d, e) {
+  return a + b + c + d + e;
+}
