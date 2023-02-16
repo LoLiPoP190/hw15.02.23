@@ -118,3 +118,16 @@ let example1 = ["Hello", "my", "Karakol", "what", "friend"];
 example1.push("something"); // в конец массива
 example1.unshift("nothing"); // в начало массива
 
+
+// 15. Создайте массив чисел и вычислите сумму всех четных чисел в массиве.
+
+let example2 = [1, 3, 4, 6, 78, 50, 48, 23];
+
+let total3 = 0;
+for (let i = 0; i < example2.length; i++) {
+  if (example2[i] % 2 === 0) {
+    total3 = total3 + example2[i];
+  }
+}
+console.log(total3);
+
