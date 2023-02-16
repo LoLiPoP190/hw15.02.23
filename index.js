@@ -84,3 +84,12 @@ console.log(total);
 for (let i = 1; i < 11; i++) {
   console.log(i ** 2);
 }
+
+
+// 11. Напишите цикл, который вычисляет сумму чисел от 1 до 25.
+
+let total2 = 0;
+for (let i = 0; i < 26; i++) {
+  total2 = total2 + i;
+}
+console.log(total2);
