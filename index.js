@@ -139,7 +139,7 @@ let total3 = "";
 for (let i = 0; i < unify.length; i++) {
   total3 = total3 + unify[i];
 }
-console.log(total4);
+console.log(total3);
 
 
 // 18. Создайте массив строк ["one", "two", "three"] и переверните его.  ["three", "two", "one"]
