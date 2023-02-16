@@ -14,3 +14,11 @@ function printVolume(height, radius) {
   console.log(3.14 * (radius ** 2) * height);
 }
 printVolume(34, 13);
+
+
+// 3. Напишите функцию, которая принимает строку и возвращает ее длину.
+// functionName(" ... ") // Длина строки равна ...
+
+function getLength(str) {
+  return str.length;
+}
